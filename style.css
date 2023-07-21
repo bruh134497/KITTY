@@ -1,0 +1,136 @@
+
+h1{
+      width: 50px;
+      color: rgba(137, 204, 213, 0.928);
+      font-size: large;
+      font-family: fantasy;
+}
+p{
+      display: block;
+      width:20cm ;
+      color: rgb(164, 218, 225);
+      font-size: large;
+      font-family: fantasy;
+}
+#title {
+      color: rgba(163, 208, 213, 0.928);
+      font-size: large;
+      font-family: fantasy;
+}
+body{
+      background-image: url(sunset.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+}
+h2{
+      width: 50px;
+      color: rgba(137, 204, 213, 0.928);
+      font-size: large;
+      font-family: fantasy;
+}
+
+
+nav {
+      background-color: #efefef; /* set the background color */
+      height: 50px; /* set the height */
+      padding: 10px; /* add padding */
+    }
+    
+    nav ul {
+      list-style: none; /* remove the default bullet points */
+      margin: 0;
+      padding: 0;
+      display: flex; /* use flexbox to align the menu items */
+      justify-content: space-between;
+    }
+    
+    nav li {
+      margin: 0 10px; /* add some margin between the menu items */
+      text-transform: uppercase; /* set the text to uppercase */
+      font-weight: bold; /* set the font weight to bold */
+    }
+    
+    nav a {
+      color: #f5a8c9; /* set the text color */
+      text-decoration: none; /* remove the underline */
+      padding: 5px 10px; /* add some padding to the links */
+      border-radius: 5px; /* add some border radius to the links */
+    }
+    
+    nav a:hover {
+      background-color: #fff; /* change the background color on hover */
+      color: #e894bb; /* change the text color on hover */
+    } 
+
+ 
+    .box{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-top:2%;
+  }
+  
+  .social{
+      width:60px;
+      height:60px;
+      padding:1%;
+  }
+  
+  .header{
+      font-size:25px;
+      font-weight:bold;
+      margin-bottom:2%;
+  }
+  
+  #contactBox{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  ul{
+      list-style-type: none;
+  }
+  
+  li{
+      padding:2%;
+  }
+  
+  input{
+      width:60%;
+      height:30px;
+      margin:1%;
+  }
+  form{
+      padding:2%;
+  }
+  
+  
+  #submit{
+      padding:2%;
+      background-color: #ECFAFF;
+      width:20%;
+      border-radius: 5px;
+      align-content: center;
+      border: 2px solid rgb(163, 163, 238);
+  }
+  
+  #bottom{
+      text-align: center;
+      height:30vh;
+      padding:3%;
+      background-color: #F5F5F5;
+  }
+  
+  .big{
+      width:40%;
+  }
+  
+  .small{
+      width:20%;
+  }
+  
